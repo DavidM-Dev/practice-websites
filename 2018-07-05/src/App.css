@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.background1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.img1 {
+  object-fit: contain;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-family: 'Coming Soon';
+  font-size: 22px;
+}
+
+.float {
+  float: left;
+}
+
+.button {
+    padding: 20px;
+    border-style: solid;
+    border-color: #EEEEFF;
+    border-radius: 10px;
+    background-color: #222;
+    color: white;
+    margin: 1%;
+}
+
+.flexy {
+  display: flex;
+}
+
+.one {
+  flex: 0 0 65%;
+}
+
+.two {
+  flex: 1;
+}
+
+.card {
+  padding: 20px;
+  border-style: solid;
+  border-color: #EEEEFF;
+  border-radius: 10px;
+  width: 75%;
+  height: 50%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
