@@ -1,4 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+@import url('https://fonts.googleapis.com/css?family=Knewave');
 
 .bar {
-  
+  background-color: rgba(208,244,234,1.0);
+  position: absolute;
+  height: 100%;
+  left: -300px;
+  top: 0;
+  width: 300px;
+}
+
+.bar .title {
+  font-family: 'Knewave', cursive;
+  font-size: 40px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.close-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 32px;
+  width: 32px;
+}
+
+.divide {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #829399;
+}
+
+.close-button {
+  cursor: pointer;
+}
+
+.link {
+    font-size: 20px;
+    font-family: 'Wendy One', sans-serif;
+    color: #545F66;
+}
+
+.icons {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.icon {
+  height: 48px;
+  width: 48px;
+  margin: 20px 15px 20px 15px;
 }

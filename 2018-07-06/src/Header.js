@@ -4,10 +4,6 @@ import anime from 'animejs';
 import hamburger_icon from './images/hamburger_icon.png';
 
 class Header extends Component {
-  constructor(props) {
-    super();
-  }
-
   render() {
     return (
       <div className="header">
@@ -17,7 +13,7 @@ class Header extends Component {
         <div className="section4"/>
         <div className="section5"/>
         <p className="title">Title</p>
-        <a onClick={this.props.instance.openNavbar}>
+        <a onClick={() => this.props.instance.toggleNavbar()}>
           <div className="sidebar-button">
             <img src={hamburger_icon} alt="" className="hamburger-icon"/>
           </div>
